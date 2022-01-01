@@ -8,12 +8,28 @@ def gr():
             self.name = name
             self.points = points
         def __repr__(self):
-            return self.name + ' : ' + str(self.points) 
+            return self.name + ' : ' + str(self.points) + 'pts'
     if __name__ == '__main__':
         epis = [
             Classement('BadHater', 0),
             Classement('Isaac', 0),
             Classement('Vaillant Heros', 0)
+            Classement('Nameless', 0)
+            Classement('Smada', 0)
+            Classement('Jean Robert', 0)
+            Classement('Said Mohamed', 0)
+            Classement('Insmane', 0)
+            Classement('Imrane', 0)
+            Classement('Abdel', 0)
+            Classement('Cindy', 0)
+            Classement('Patrick', 0)
+            Classement('Ange Monkam', 0)
+            Classement('Maxime Ktms', 0)
+            Classement('Lorenzo', 0)
+            Classement('Best-Boy', 0)
+            Classement('Le Prometteur', 0)
+            Classement('Kitambala', 0)
+            Classement('Zender', 0)
             ]
         epis.sort(key = lambda x: x.name)#, reverse = True)
         for x in epis:
@@ -38,6 +54,22 @@ def dr():
             Classement('BadHater', 0),
             Classement('Isaac', 0),
             Classement('Vaillant Heros', 0)
+            Classement('Nameless', 0)
+            Classement('Smada', 0)
+            Classement('Jean Robert', 0)
+            Classement('Said Mohamed', 0)
+            Classement('Insmane', 0)
+            Classement('Imrane', 0)
+            Classement('Abdel', 0)
+            Classement('Cindy', 0)
+            Classement('Patrick', 0)
+            Classement('Ange Monkam', 0)
+            Classement('Maxime Ktms', 0)
+            Classement('Lorenzo', 0)
+            Classement('Best-Boy', 0)
+            Classement('Le Prometteur', 0)
+            Classement('Kitambala', 0)
+            Classement('Zender', 0)
             ]
         epis.sort(key = lambda x: x.name)#, reverse = True)
         for x in epis:
