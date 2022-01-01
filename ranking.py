@@ -56,7 +56,7 @@ def upd():
     os.system('git clone https://github.com/ZarguiJack/ranking')
     os.chdir('/data/data/com.termux/files/home/ranking')
     os.system('python ranking.py')
-    sys.exit()
+    #sys.exit()
 
 def home():
  os.system('clear')
