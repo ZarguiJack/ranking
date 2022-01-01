@@ -52,7 +52,7 @@ def dr():
 
 def upd():
     os.chdir('/data/data/com.termux/files/home')
-    shutil.rmtree(ranking)
+    shutil.rmtree('ranking')
     os.system('git clone https://github.com/ZarguiJack/ranking')
     os.chdir('/data/data/com.termux/files/home/ranking')
     os.system('python ranking.py')
