@@ -56,7 +56,7 @@ def upd():
     os.system('git clone https://github.com/ZarguiJack/ranking')
     os.chdir('/data/data/com.termux/files/home/ranking')
     os.system('python ranking.py')
-    #sys.exit()
+    sys.exit()
 
 def home():
  os.system('clear')
@@ -80,7 +80,7 @@ choose an option: '''))
      gr()
  elif option == 2:
      dr()
- elif option == 4:
+ elif option == 3:
      upd()
  elif option == 4:
      sys.exit()
