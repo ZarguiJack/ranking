@@ -31,7 +31,7 @@ def gr():
             Classement('Kitambala', 0),
             Classement('Zender', 0)
             ]
-        epis.sort(key = lambda x: x.name)#, reverse = True)
+        epis.sort(key = lambda x: (-x.points, x.name)
         for x in epis:
             print(c, x)
             c += 1
