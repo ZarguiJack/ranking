@@ -23,7 +23,7 @@ def gr():
             Classement('Abdel', 0),
             Classement('Cindy', 0),
             Classement('Patrick', 0),
-            Classement('Ange Monkam', 2),
+            Classement('Ange Monkam', 0),
             Classement('Maxime Ktms', 0),
             Classement('Lorenzo', 0),
             Classement('Best-Boy', 0),
