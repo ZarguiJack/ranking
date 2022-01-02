@@ -12,7 +12,7 @@ def gr():
     if __name__ == '__main__':
         epis = [
             Classement('BadHater', 0),
-            Classement('Isaac', 0),
+            Classement('Ie-Tech', 1),
             Classement('Vaillant Heros', 0),
             Classement('Nameless', 0),
             Classement('Smada', 0),
@@ -32,6 +32,11 @@ def gr():
             Classement('Zender', 0)
             ]
         epis.sort(key = lambda x: (-x.points, x.name))
+        non=0
+        for x in epis:
+         non = non+x.points
+        print('number of victims: ', non)
+        print('General ranking:\n')
         for x in epis:
             print(c, x)
             c += 1
@@ -52,7 +57,7 @@ def dr():
     if __name__ == '__main__':
         epis = [
             Classement('BadHater', 0),
-            Classement('Isaac', 0),
+            Classement('Ie-Tech', 1),
             Classement('Vaillant Heros', 0),
             Classement('Nameless', 0),
             Classement('Smada', 0),
@@ -72,6 +77,7 @@ def dr():
             Classement('Zender', 0)
             ]
         epis.sort(key = lambda x: x.name)#, reverse = True)
+        print('day ranking:\n')
         for x in epis:
             print(c, x)
             c += 1
