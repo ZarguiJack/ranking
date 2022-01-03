@@ -11,7 +11,7 @@ def gr():
             return self.name + ' : ' + str(self.points) + 'pts'
     if __name__ == '__main__':
         epis = [
-            Classement('BadHater', 0),
+            Classement('BadHater', 1),
             Classement('Ie-Tech', 1),
             Classement('Vaillant Heros', 0),
             Classement('Nameless', 0),
@@ -29,12 +29,19 @@ def gr():
             Classement('Best-Boy', 0),
             Classement('Le Prometteur', 0),
             Classement('Kitambala', 0),
-            Classement('Zender', 0)
+            Classement('Zender', 0),
+            Classement('Xender', 0),
+            Classement('Ali Dyna', 0),
+            Classement('Yano', 0),
+            Classement('Newton', 0)
             ]
         epis.sort(key = lambda x: (-x.points, x.name))
         non=0
+        ni = 0
         for x in epis:
          non = non+x.points
+         ni = ni+1
+        print('number of participants: ', ni)
         print('number of victims: ', non)
         print('General ranking:\n')
         for x in epis:
@@ -56,8 +63,8 @@ def dr():
             return self.name + ' : ' + str(self.points) 
     if __name__ == '__main__':
         epis = [
-            Classement('BadHater', 0),
-            Classement('Ie-Tech', 1),
+            Classement('BadHater', 1),
+            Classement('Ie-Tech', 0),
             Classement('Vaillant Heros', 0),
             Classement('Nameless', 0),
             Classement('Smada', 0),
@@ -75,6 +82,10 @@ def dr():
             Classement('Le Prometteur', 0),
             Classement('Kitambala', 0),
             Classement('Zender', 0)
+            Classement('Xender', 0),
+            Classement('Ali Dyna', 0),
+            Classement('Yano', 0),
+            Classement('Newton', 0)
             ]
         epis.sort(key = lambda x: x.name)#, reverse = True)
         print('day ranking:\n')
