@@ -86,7 +86,7 @@ def dr():
             Classement('Yano', 0),
             Classement('Newton', 0)
             ]
-        epis.sort(key = lambda x: x.name)#, reverse = True)
+        epis.sort(key = lambda x: (-x.points, x.name))
         print('day ranking:\n')
         for x in epis:
             print(c, x)
