@@ -13,7 +13,7 @@ def gr():
             Classement('BadHater', 1),
             Classement('Ie-Tech', 1),
             Classement('Vaillant Heros', 0),
-            Classement('Nameless', 0),
+            Classement('Nameless', 1),
             Classement('Smada', 0),
             Classement('Jean Robert', 0),
             Classement('Said Mohamed', 0),
@@ -30,7 +30,7 @@ def gr():
             Classement('Kitambala', 0),
             Classement('Zender', 0),
             Classement('Xender', 0),
-            Classement('Ali Dyna', 5),
+            Classement('Ali Dyna', 0),
             Classement('Yano', 0),
             Classement('Newton', 0)
             ]
@@ -65,7 +65,7 @@ def dr():
             Classement('BadHater', 1),
             Classement('Ie-Tech', 0),
             Classement('Vaillant Heros', 0),
-            Classement('Nameless', 0),
+            Classement('Nameless', 1),
             Classement('Smada', 0),
             Classement('Jean Robert', 0),
             Classement('Said Mohamed', 0),
@@ -82,7 +82,7 @@ def dr():
             Classement('Kitambala', 0),
             Classement('Zender', 0),
             Classement('Xender', 0),
-            Classement('Ali Dyna', 5),
+            Classement('Ali Dyna', 0),
             Classement('Yano', 0),
             Classement('Newton', 0)
             ]
