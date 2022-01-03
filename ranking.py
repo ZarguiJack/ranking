@@ -30,7 +30,7 @@ def gr():
             Classement('Kitambala', 0),
             Classement('Zender', 0),
             Classement('Xender', 0),
-            Classement('Ali Dyna', 0),
+            Classement('Ali Dyna', 5),
             Classement('Yano', 0),
             Classement('Newton', 0)
             ]
@@ -82,7 +82,7 @@ def dr():
             Classement('Kitambala', 0),
             Classement('Zender', 0),
             Classement('Xender', 0),
-            Classement('Ali Dyna', 0),
+            Classement('Ali Dyna', 5),
             Classement('Yano', 0),
             Classement('Newton', 0)
             ]
