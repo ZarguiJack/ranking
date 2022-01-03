@@ -1,5 +1,4 @@
-
-import os, sys, shutil
+, os, sys, shutil
 
 def gr():
     c = 1
@@ -81,7 +80,7 @@ def dr():
             Classement('Best-Boy', 0),
             Classement('Le Prometteur', 0),
             Classement('Kitambala', 0),
-            Classement('Zender', 0)
+            Classement('Zender', 0),
             Classement('Xender', 0),
             Classement('Ali Dyna', 0),
             Classement('Yano', 0),
