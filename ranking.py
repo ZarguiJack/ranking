@@ -12,9 +12,9 @@ def gr():
         epis = [
             Classement('BadHater', 1),
             Classement('Ie-Tech', 1),
-            Classement('Vaillant Heros', 0),
+            #Classement('Vaillant Heros', 0),
             Classement('Nameless', 1),
-            Classement('Smada', 0),
+            '''Classement('Smada', 0),
             Classement('Jean Robert', 0),
             Classement('Said Mohamed', 0),
             Classement('Insmane', 0),
@@ -29,10 +29,10 @@ def gr():
             Classement('Le Prometteur', 0),
             Classement('Kitambala', 0),
             Classement('Zender', 0),
-            Classement('Xender', 0),
+            Classement('Xender', 0),'''
             Classement('Ali Dyna', 5),
-            Classement('Yano', 0),
-            Classement('Newton', 0)
+            '''Classement('Yano', 0),
+            Classement('Newton', 0)'''
             ]
         epis.sort(key = lambda x: (-x.points, x.name))
         non=0
@@ -91,9 +91,7 @@ def dr():
             ]
         epis.sort(key = lambda x: (-x.points, x.name))
         print('day ranking:\n')
-        for x in epis:
-          if x.points ==0:
-             epis.remove(x)
+        
         for x in epis:
             print(c, x)
             c += 1
