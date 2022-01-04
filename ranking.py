@@ -38,6 +38,9 @@ def gr():
         non=0
         ni = 0
         for x in epis:
+          if x.points ==0:
+             epis.remove(x)
+        for x in epis:
          non = non+x.points
          ni = ni+1
         print('number of participants: ', ni)
@@ -88,6 +91,9 @@ def dr():
             ]
         epis.sort(key = lambda x: (-x.points, x.name))
         print('day ranking:\n')
+        for x in epis:
+          if x.points ==0:
+             epis.remove(x)
         for x in epis:
             print(c, x)
             c += 1
