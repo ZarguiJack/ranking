@@ -14,25 +14,7 @@ def gr():
             Classement('Ie-Tech', 1),
             #Classement('Vaillant Heros', 0),
             Classement('Nameless', 1),
-            '''Classement('Smada', 0),
-            Classement('Jean Robert', 0),
-            Classement('Said Mohamed', 0),
-            Classement('Insmane', 0),
-            Classement('Imrane', 0),
-            Classement('Abdel', 0),
-            Classement('Khalif', 0),
-            Classement('Patrick', 0),
-            Classement('Ange Monkam', 0),
-            Classement('Maxime Ktms', 0),
-            Classement('Lorenzo', 0),
-            Classement('Best-Boy', 0),
-            Classement('Le Prometteur', 0),
-            Classement('Kitambala', 0),
-            Classement('Zender', 0),
-            Classement('Xender', 0),'''
-            Classement('Ali Dyna', 5),
-            '''Classement('Yano', 0),
-            Classement('Newton', 0)'''
+            Classement('Ali Dyna', 5)
             ]
         epis.sort(key = lambda x: (-x.points, x.name))
         non=0
@@ -67,7 +49,6 @@ def dr():
         epis = [
             Classement('BadHater', 1),
             Classement('Ie-Tech', 0),
-            Classement('Vaillant Heros', 0),
             Classement('Nameless', 1),
             Classement('Smada', 0),
             Classement('Jean Robert', 0),
