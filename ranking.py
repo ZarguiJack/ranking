@@ -10,7 +10,7 @@ def gr():
             return self.name + ' : ' + str(self.points) + 'pts'
     if __name__ == '__main__':
         epis = [
-            Classement('BadHater', 2),
+            Classement('BadHater', 3),
             Classement('Ie-Tech', 1),
             #Classement('Vaillant Heros', 0),
             Classement('Nameless', 1),
