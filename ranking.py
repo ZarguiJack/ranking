@@ -47,7 +47,7 @@ def dr():
             return self.name + ' : ' + str(self.points) 
     if __name__ == '__main__':
         epis = [
-            Classement('BadHater', 1),
+            Classement('BadHater', 0),
             Classement('Ie-Tech', 0),
             Classement('Nameless', 0),
             Classement('Ali Dyna', 0),
