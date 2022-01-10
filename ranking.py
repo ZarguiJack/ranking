@@ -14,7 +14,7 @@ def gr():
             Classement('Ie-Tech', 1),
             #Classement('Vaillant Heros', 0),
             Classement('Nameless', 1),
-            Classement('Ali Dyna', 5)
+            Classement('Ali Dyna', 4)
             ]
         epis.sort(key = lambda x: (-x.points, x.name))
         non=0
